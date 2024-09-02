@@ -1,0 +1,19 @@
+{
+  "notes": [
+    {
+      "id": "da08",
+      "body": "My first note",
+      "updated": "2024-08-27T10:17:37.078Z"
+    },
+    {
+      "id": "0ed0",
+      "body": "This is my second note\n\nMy second note shows a preview of my note with the noteblock overview.",
+      "updated": "2024-08-27T10:17:49.411Z"
+    },
+    {
+      "id": "0a9e",
+      "body": "Third note\n\nHere I can write and adjust my note. A preview of this content will be displayed at the noteblock overview page.",
+      "updated": "2024-08-27T10:17:45.040Z"
+    }
+  ]
+}
