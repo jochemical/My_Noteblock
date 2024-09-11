@@ -16,7 +16,7 @@ function NotePage({ match, history }) {
   // React Hook to create state variable (initialised on null/empty)
   let [note, setNote] = useState(null)
 
-  // useEffect is a React Hook to create addtional tasks within (functional) components
+  // useEffect is a React Hook to create additional tasks within (functional) components
   useEffect(() => {
 
     // Call getNote() function
