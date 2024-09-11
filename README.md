@@ -5,3 +5,5 @@ complete or discard it with the "Done" or "Back" buttons. Empty notes are automa
 overview displays all notes along with the time of the last modification, a title, and a preview of
 the content.
 
+This project is based on the course 'React JS Notes App & Crash Course' taught by Dennis Ivy.
+
