@@ -32,7 +32,7 @@ function NotePage({ match, history }) {
     if (noteId === 'new') return
 
     // get data from fetch API
-    let response = await fetch(`http://192.168.2.7:3001/notes/${noteId}`)
+    let response = await fetch(`${process.env.REACT_APP_API_URL}/notes/${noteId}`)
     // The fetch function sends a HTTP-request to call data from server (Fetch API)
     // Mind the backticks to use dynamic URL and store into variable 'noteID'
 
@@ -46,7 +46,7 @@ function NotePage({ match, history }) {
 
   // Create function
   let createNote = async () => {
-    await fetch(`http://192.168.2.7:3001/notes/`, {
+    await fetch(`${process.env.REACT_APP_API_URL}/notes/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -58,7 +58,7 @@ function NotePage({ match, history }) {
 
   // Update function
   let updateNote = async () => {
-    await fetch(`http://192.168.2.7:3001/notes/${noteId}`, {
+    await fetch(`${process.env.REACT_APP_API_URL}/notes/${noteId}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -70,7 +70,7 @@ function NotePage({ match, history }) {
 
   // Delete function
   let deleteNote = async () => {
-    await fetch(`http://192.168.2.7:3001/notes/${noteId}`, {
+    await fetch(`${process.env.REACT_APP_API_URL}/notes/${noteId}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'

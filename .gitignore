@@ -32,6 +32,9 @@ yarn.lock
 .vscode/
 .idea/
 
+# Database
+db.json
+src/data.js
 
 # My own notes
 LearningJS.js

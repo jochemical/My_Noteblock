@@ -32,7 +32,7 @@ const NotesPage = () => {
     // async is necessarry to use 'await'
 
     // Get data from fetch API
-    let response = await fetch('http://192.168.2.7:3001/notes')
+    let response = await fetch(`${process.env.REACT_APP_API_URL}/notes`)
     // The fetch function sends a HTTP-request to call data from server (Fetch API)
     // 'await' ensures that fetch is completed before executing the next line
 
