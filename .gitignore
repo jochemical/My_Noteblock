@@ -34,7 +34,7 @@ yarn.lock
 
 # Database
 db.json
-src/data.js
+src/assets/data.js
 
 # My own notes
 LearningJS.js
