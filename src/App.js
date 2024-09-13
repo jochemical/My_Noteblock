@@ -1,7 +1,7 @@
 
 import {
   BrowserRouter as Router,
-  Route,
+  Route
 } from "react-router-dom";
 
 import './App.css';
@@ -18,12 +18,13 @@ function App() {
         <div className="app">
 
           <Header />
-
+          {/* <Routes> */}
           {/* Routing */}
           <Route component={NotePage} path="/note/:id" />
           <Route component={NotesPage} path="/" exact />
           {/* 'exact' makes sure this route is only used when the URL exactly match the path */}
-          
+          {/* </Routes> */}
+
         </div>
       </div>
     </Router>
